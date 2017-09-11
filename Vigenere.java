@@ -1,15 +1,10 @@
 package test;
 
-public class vigenere {
+public class Vigenere implements Cipher{
 	private String atoz="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	private String key;
-	vigenere(String k){
-		this.key = k;
-	}
-	public void setKey(String s) {
-		this.key = s;
-	}
-	public String encrypt(String text) {
+
+	@Override
+	public String encrypt(String text, String key) {
 		String result = new String();
 		char[] keyarray = key.toCharArray();
 		int i = 0;
@@ -27,8 +22,8 @@ public class vigenere {
 		}
 		return result;
 	}
-	
-	public String decrypt(String text) {
+	@Override
+	public String decrypt(String text, String key) {
 		String result = new String();
 		char[] keyarray = key.toCharArray();
 		int i = 0;

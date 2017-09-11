@@ -5,9 +5,9 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
-public class HelloWorld {
+public class Main {
 	public static void main(String[] args) {
-		Result result = JUnitCore.runClasses(junittest.class);	
+		Result result = JUnitCore.runClasses(CaesarTest.class);	
 		for (Failure failure : result.getFailures()) {
 			         System.out.println(failure.toString());
 		}
@@ -15,12 +15,12 @@ public class HelloWorld {
 		System.out.println("Success status for caser encrypt encrypt class:" + result.wasSuccessful());
 		
 		//break the cipher example
-		ceaser s = new ceaser();
-		System.out.println(s.breakcypher("jvvr://yyy.iqqing.eqo"));
+		Caesar caesarhack = new Caesar();
+		System.out.println(caesarhack.breakcypher("jvvr://yyy.iqqing.eqo"));
 		
-		vigenere v = new vigenere("RELAT IONSR ELA");
-		System.out.println(v.encrypt("TOBEO RNOTT OBE"));
-		System.out.println(v.decrypt("KSMEH ZBBLK SME"));
+		Cipher v = new Vigenere();
+		System.out.println(v.encrypt("TOBEO RNOTT OBE","RELAT IONSR ELA"));
+		System.out.println(v.decrypt("KSMEH ZBBLK SME","RELAT IONSR ELA"));
 		
 	}
 
