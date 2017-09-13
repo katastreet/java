@@ -22,6 +22,8 @@ public class Main {
 		System.out.println(v.encrypt("TOBEO RNOTT OBE","RELAT IONSR ELA"));
 		System.out.println(v.decrypt("KSMEH ZBBLK SME","RELAT IONSR ELA"));
 		
+		
+		
 	}
 
 }
