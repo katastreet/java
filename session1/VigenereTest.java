@@ -1,4 +1,4 @@
-package test;
+package test.session1;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package test;
+package test.session1;
 
 public class MonoAlphabetic implements Cipher{
 	private String plain="ABCDEFGHIJKLMNOPQRSTUVWXYZ";

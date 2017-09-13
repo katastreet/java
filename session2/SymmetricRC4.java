@@ -1,4 +1,6 @@
-package test;
+package test.session2;
+
+import test.session1.Cipher;
 
 public class SymmetricRC4 implements Cipher{
 

@@ -1,4 +1,4 @@
-package test;
+package test.session1;
 
 public class Vigenere implements Cipher{
 	private String atoz="ABCDEFGHIJKLMNOPQRSTUVWXYZ";

@@ -1,4 +1,4 @@
-package test;
+package test.session1;
 
 public interface Cipher {
 	public String encrypt(String text, String key);

@@ -1,8 +1,10 @@
-package test;
+package test.session2;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import test.session1.Cipher;
 
 public class SymmetricRC4Test {
 
