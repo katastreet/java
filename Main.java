@@ -1,6 +1,7 @@
 package test;
 import java.util.Scanner;
 
+
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
@@ -30,6 +31,7 @@ public class Main {
 		
 		Cipher rc4 = new SymmetricRC4();
 		System.out.println(rc4.encrypt("hello world","broits"));
+		
 		
 		
 	}
