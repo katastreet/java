@@ -19,6 +19,7 @@ public class SymmetricRC4Test {
 		s = rc4.encrypt("this is ram1234", key);
 		assertEquals("(this is ram1234) encrypted and decrypted check","this is ram1234",rc4.decrypt(s, key));
 		
+		
 	}
 
 }
