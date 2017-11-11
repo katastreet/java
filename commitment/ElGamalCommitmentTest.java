@@ -7,6 +7,8 @@ import java.security.SecureRandom;
 public class ElGamalCommitmentTest {
 	public static void main(String[] args) {
 	ElGamalCommitment.n = 1024;
+	
+	//generators g and h , h being public key
 	int g = ElGamalCommitment.generateG();
 	int h = ElGamalCommitment.generateH(g);
 	

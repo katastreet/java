@@ -8,6 +8,8 @@ import javax.xml.crypto.dsig.SignedInfo;
 
 public class ElGamalCommitment {
 	public static int n;
+	//generators g and h
+	// h = g^x mod n,  x private key 
 	public int g;
 	public int h;
 	
